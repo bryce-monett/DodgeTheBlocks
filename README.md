@@ -1,20 +1,23 @@
-# DodgeTheBlocks
+# 🕹 Dodge The Blocks - MonoGame C# Game
 
-Step 1: Install MonoGame
+🚀 **Dodge the Blocks** is a simple **2D game** where the player dodges falling blocks for as long as possible.
 
-Before running the game, install MonoGame if you haven’t already:
+## 🎮 How to Play
+- Use the **Left Arrow (←)** and **Right Arrow (→)** to move.
+- Dodge the falling **red blocks**.
+- Survive as long as possible to **increase your score**.
 
-dotnet new --install MonoGame.Templates.CSharp
+## 🛠 Requirements
+- **C# and .NET 6+**
+- **MonoGame Framework**
 
-Step 2: Clone the Repository
+## 🚀 Running the Game
+1. Install **MonoGame**:
+   ```sh
+   dotnet new --install MonoGame.Templates.CSharp
 
+2. Clone the Repo
 git clone https://github.com/bryce-monett/DodgeTheBlocks.git
-cd DodgeTheBlocks
 
-Step 3: Run the Game
-
-dotnet run
-
-Key Action:
-← Left Arrow = Move Left
-→ Right Arrow = Move Right
+3. Compile & Run
+dotnet run Game1.cs
